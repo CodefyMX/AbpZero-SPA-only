@@ -1,0 +1,10 @@
+﻿{
+  "templateName": "Simple",
+  "fileType": "html",
+  "templateFullName": "Simple.html",
+  "isPartial": true,
+  "externalResources": {
+    "css": [ "" ],
+    "js": [ "" ]
+  }
+}

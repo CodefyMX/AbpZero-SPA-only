@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13572C5D-ABB6-493D-97BE-7FFC37ACBA4C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cinotam.ModuleZero.AppModule</RootNamespace>
+    <AssemblyName>Cinotam.ModuleZero.AppModule</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Abp, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Abp.1.2.0.0\lib\net452\Abp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Abp.AutoMapper.1.2.0.0\lib\net452\Abp.AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Abp.Zero, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Abp.Zero.1.2.0.0\lib\net452\Abp.Zero.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.5.2.0\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.LoggingFacility.3.3.0\lib\net45\Castle.Facilities.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NinjaNye.SearchExtensions, Version=1.8.6091.39511, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NinjaNye.SearchExtensions.1.8.6091.39511\lib\net40\NinjaNye.SearchExtensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Concurrent, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.Concurrent.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nito.AsyncEx.Enlightenment, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nito.AsyncEx.3.0.1\lib\net45\Nito.AsyncEx.Enlightenment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.3.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditLogs\AuditLogService.cs" />
+    <Compile Include="AuditLogs\Dto\AuditLogOutput.cs" />
+    <Compile Include="AuditLogs\Dto\AuditLogTimeOutput.cs" />
+    <Compile Include="AuditLogs\Dto\AuditLogTimesInput.cs" />
+    <Compile Include="AuditLogs\Dto\LogDto.cs" />
+    <Compile Include="AuditLogs\IAuditLogService.cs" />
+    <Compile Include="Chat\ChatAppService.cs" />
+    <Compile Include="Chat\Dto\ConversationOutput.cs" />
+    <Compile Include="Chat\Dto\ConversationRequestInput.cs" />
+    <Compile Include="Chat\Dto\MessageDto.cs" />
+    <Compile Include="Chat\Dto\SendMessageInput.cs" />
+    <Compile Include="Chat\IChatAppService.cs" />
+    <Compile Include="CinotamModuleZeroAppModule.cs" />
+    <Compile Include="CinotamModuleZeroAppServiceBase.cs" />
+    <Compile Include="CinotamModuleZeroConsts.cs" />
+    <Compile Include="Features\Dto\DeleteEditionInput.cs" />
+    <Compile Include="Features\Dto\EditionDto.cs" />
+    <Compile Include="Features\Dto\EditionsForTenantOutput.cs" />
+    <Compile Include="Features\Dto\EditionsOutput.cs" />
+    <Compile Include="Features\Dto\NewEditionInput.cs" />
+    <Compile Include="Features\FeatureManager\CustomEditionManager.cs" />
+    <Compile Include="Features\FeatureManager\ICustomEditionManager.cs" />
+    <Compile Include="Features\FeatureService.cs" />
+    <Compile Include="Features\IFeatureService.cs" />
+    <Compile Include="Languages\Dto\LanguageDto.cs" />
+    <Compile Include="Languages\Dto\LanguageSelected.cs" />
+    <Compile Include="Languages\Dto\LanguagesOutput.cs" />
+    <Compile Include="Languages\Dto\LanguageText.cs" />
+    <Compile Include="Languages\Dto\LanguageTextsForEdit.cs" />
+    <Compile Include="Languages\Dto\LanguageInput.cs" />
+    <Compile Include="Languages\Dto\LanguageTextsForEditRequest.cs" />
+    <Compile Include="Languages\Dto\LanguageTextsForEditView.cs" />
+    <Compile Include="Languages\Dto\LanguageTextTableElement.cs" />
+    <Compile Include="Languages\Dto\LocalizationTextInput.cs" />
+    <Compile Include="Languages\ILanguageAppService.cs" />
+    <Compile Include="Languages\LanguageAppService.cs" />
+    <Compile Include="ModuleZeroNavigationProvider.cs" />
+    <Compile Include="ModuleZeroSettingsProvider.cs" />
+    <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
+    <Compile Include="MultiTenancy\Dto\CustomEditionInput.cs" />
+    <Compile Include="MultiTenancy\Dto\SetTenantEditionInput.cs" />
+    <Compile Include="MultiTenancy\Dto\TenantListDto.cs" />
+    <Compile Include="MultiTenancy\Dto\TenantViewModel.cs" />
+    <Compile Include="MultiTenancy\ITenantAppService.cs" />
+    <Compile Include="MultiTenancy\MultiTenancyHelper\IMultiTenancyHelper.cs" />
+    <Compile Include="MultiTenancy\MultiTenancyHelper\MultiTenancyHelper.cs" />
+    <Compile Include="MultiTenancy\TenantAppService.cs" />
+    <Compile Include="Notifications\Dto\NotificationOutput.cs" />
+    <Compile Include="Notifications\INotificationService.cs" />
+    <Compile Include="Notifications\NotificationService.cs" />
+    <Compile Include="OrganizationUnits\Dto\AddUserToOrgUnitInput.cs" />
+    <Compile Include="OrganizationUnits\Dto\MoveOrganizationUnitInput.cs" />
+    <Compile Include="OrganizationUnits\Dto\OrganizationUnitDto.cs" />
+    <Compile Include="OrganizationUnits\Dto\OrganizationUnitInput.cs" />
+    <Compile Include="OrganizationUnits\Dto\OrganizationUnitsConfigViewModel.cs" />
+    <Compile Include="OrganizationUnits\Dto\UsersInOrganizationUnitOutput.cs" />
+    <Compile Include="OrganizationUnits\IOrganizationUnitsAppService.cs" />
+    <Compile Include="OrganizationUnits\OrganizationUnitsAppService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roles\Dto\AssignedPermission.cs" />
+    <Compile Include="Roles\Dto\RoleDto.cs" />
+    <Compile Include="Roles\Dto\RoleSelectorOutput.cs" />
+    <Compile Include="Roles\Dto\UpdateRolePermissionsInput.cs" />
+    <Compile Include="Roles\IRoleAppService.cs" />
+    <Compile Include="Roles\RoleAppService.cs" />
+    <Compile Include="Sessions\Dto\GetCurrentLoginInformationsOutput.cs" />
+    <Compile Include="Sessions\Dto\TenantLoginInfoDto.cs" />
+    <Compile Include="Sessions\Dto\UserLoginInfoDto.cs" />
+    <Compile Include="Sessions\ISessionAppService.cs" />
+    <Compile Include="Sessions\SessionAppService.cs" />
+    <Compile Include="Settings\Dto\SettingInputDto.cs" />
+    <Compile Include="Settings\Dto\SettingsOutput.cs" />
+    <Compile Include="Settings\ISettingsAppService.cs" />
+    <Compile Include="Settings\SettingsAppService.cs" />
+    <Compile Include="Users\Dto\AddPhoneNumberInput.cs" />
+    <Compile Include="Users\Dto\ChangePasswordInput.cs" />
+    <Compile Include="Users\Dto\ChangePhoneNumberRequest.cs" />
+    <Compile Include="Users\Dto\CreateUserInput.cs" />
+    <Compile Include="Users\Dto\NotificationsOutput.cs" />
+    <Compile Include="Users\Dto\PhoneConfirmationInput.cs" />
+    <Compile Include="Users\Dto\PhoneConfirmationResult.cs" />
+    <Compile Include="Users\Dto\ProhibitPermissionInput.cs" />
+    <Compile Include="Roles\Dto\RoleInput.cs" />
+    <Compile Include="Users\Dto\RoleSelectorInput.cs" />
+    <Compile Include="Users\EnumHelpers\TwoFactorRequestResults.cs" />
+    <Compile Include="Users\Dto\UpdateProfilePictureInput.cs" />
+    <Compile Include="Users\Dto\UserListDto.cs" />
+    <Compile Include="Users\Dto\UserProfileDto.cs" />
+    <Compile Include="Users\Dto\UserSpecialPermissionsInput.cs" />
+    <Compile Include="Users\IUserAppService.cs" />
+    <Compile Include="Users\UserAppService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cinotam.AbpModuleZero.Core\Cinotam.AbpModuleZero.Core.csproj">
+      <Project>{17298EA0-AF73-4F30-B6F1-2066100D7D74}</Project>
+      <Name>Cinotam.AbpModuleZero.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.AbpModuleZero.EntityFramework\Cinotam.AbpModuleZero.EntityFramework.csproj">
+      <Project>{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}</Project>
+      <Name>Cinotam.AbpModuleZero.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.AbpModuleZero.TenantHelpers\Cinotam.AbpModuleZero.TenantHelpers.csproj">
+      <Project>{91982CF1-F595-4DE9-A4ED-3B911204CCBC}</Project>
+      <Name>Cinotam.AbpModuleZero.TenantHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.AbpModuleZero.Tools\Cinotam.AbpModuleZero.Tools.csproj">
+      <Project>{9AB7EE8A-5411-4D24-AE46-158065006F00}</Project>
+      <Name>Cinotam.AbpModuleZero.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CInotam.MailSender.Contracts\CInotam.MailSender.Contracts.csproj">
+      <Project>{B79DC367-7C6B-4F59-989F-86599FBFAD06}</Project>
+      <Name>CInotam.MailSender.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.ModuleZero.BackgroundTasks\Cinotam.ModuleZero.BackgroundTasks.csproj">
+      <Project>{DA270051-1279-4759-BA4B-1E70709BEE1E}</Project>
+      <Name>Cinotam.ModuleZero.BackgroundTasks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.ModuleZero.MailSender\Cinotam.MailSender.csproj">
+      <Project>{201432A3-493B-46FE-A6FB-03D9D95DDBF6}</Project>
+      <Name>Cinotam.MailSender</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.ModuleZero.Notifications\Cinotam.ModuleZero.Notifications.csproj">
+      <Project>{57EE20C5-0930-41C0-9367-9A598B1B53D7}</Project>
+      <Name>Cinotam.ModuleZero.Notifications</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.TwoFactorAuth.Contracts\Cinotam.TwoFactorAuth.Contracts.csproj">
+      <Project>{645802DE-75FC-4403-B604-C2B650125073}</Project>
+      <Name>Cinotam.TwoFactorAuth.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cinotam.TwoFactorSmsSender\Cinotam.TwoFactorSender.csproj">
+      <Project>{58E46278-CDCC-4B1F-9B73-CF7ADE0D3EEE}</Project>
+      <Name>Cinotam.TwoFactorSender</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+<form ng-submit="vm.submit()" method="POST" role="form">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">@L("AddLanguage")</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label class="control-label">@L("LangCode")</label>
+                <select ng-options="option.DisplayName for option in vm.supportedLanguages track by option.LangCode"
+                    ng-model='vm.lang' class="form-control" style="width: 100%">
+                </select>
+
+                <h3>
+                    <i class="{{vm.lang.Icon}}"></i> {{ vm.lang.LangCode }}
+                </h3>
+
+
+
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" ng-click='vm.cancel()' class="btn btn-default" data-dismiss="modal">@L("Close")</button>
+            <button type="submit" class="btn btn-primary">@L("Save")</button>
+        </div>
+    </div>
+</form>

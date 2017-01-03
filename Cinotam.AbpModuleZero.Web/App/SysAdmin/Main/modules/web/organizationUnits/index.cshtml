@@ -1,0 +1,23 @@
+﻿<h1>@L("OrganizationUnits")</h1>
+<link href="~/Scripts/jstree/themes/proton/style.min.css" rel="stylesheet" />
+<div ng-controller="app.views.organizationUnits.index as vm">
+<div class="row">
+    <div class="col-sm-7">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                @L("OrganizationUnits")
+                <a ng-click="vm.openCreateModal()" class="btn btn-primary btn-xs pull-right">@L("CreateNewOrganizationUnit")</a>
+            </div>
+            <div class="panel-body">
+                
+                
+                <div should-apply="false" tree="vm.tree"  js-tree="vm.treeConfig" tree-events-obj='vm.treeEventHandlers' ng-model="vm.treeData" ></div>
+                
+            </div>
+        </div>
+    </div>
+    <ui-view></ui-view>
+    
+</div>
+</div>
+

@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+
+
+    <!--Smart Admin-->
+    <text name="DisplayErrorOperations" value="Display error operations" />
+    <text name="DisplaySuccessOperations" value="Display success operations" />
+    <text name="NoUsers" value="No users" />
+    <text name="Profile" value="Profile" />
+    <!--Datatables-->
+    <text name="NoDataAvailableInTable" value="No data available in table" />
+    <text name="ShowingStartToEnd" value="Showing _START_ to _END_ of _TOTAL_ entries"/>
+    <text name="ZeroEntries" value="Showing 0 to 0 of 0 entries"/>
+    <text name="ShowEntries" value="Show _MENU_ entries"/>
+    <text name="Processing" value="Processing"/>
+    <text name="Search" value="Search" />
+    <text name="NoCoincidences" value="No Coincidences"/>
+    <text name="PaginateFirst" value="First"/>
+    <text name="PaginateBefore" value="Previous"/>
+    <text name="PaginateNext" value="Next"/>
+    <text name="PaginateLast" value="Last"/>
+
+    <!--//Datatables-->
+
+    <!--Widgets-->
+    <text name="Restore" value="Restore" />
+    <text name="Edit" value="Edit widget name"/>
+    <text name="ChangeTitle" value="Change title" />
+    <text name="Collapse" value="Collapse" />
+    <text name="FullScreen" value="Full Screen"/>
+    <text name="ResetStorage" value="Clear local storage"/>
+    <text name="ResetConfirm" value="Would you like to RESET all your saved widgets and clear LocalStorage?"/>
+    <text name="LogOutMessage" value="You can improve your security further after logging out by closing this opened browser"/>
+    <text name="Refresh" value="Refresh"/>
+    <!--//Widgets-->
+
+
+    <!--Notifications Header-->
+    <text name="PressToShowInfo" value="Click a button to show messages here"/>
+    <text name="PrivacyMessage" value="This blank page message helps protect your privacy, or you can show the first message here automatically." />
+    <text name="MarkAsReaded" value="Mark as readed"/>
+    <text name="Details" value="Details"/>
+
+    <!--//Notifications Header-->
+
+
+
+    <text name="HomePage" value="Home page" />
+    <text name="About" value="About" />
+    <text name="WellcomeMessage" value="Welcome to AbpModuleZero!" />
+
+    <text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+    <text name="TenantNameCanNotBeEmpty" value="Tenant name can not be empty" />
+
+    <text name="ThereIsNoTenantDefinedWithName{0}" value="There is no tenant defined with name {0}" />
+    <text name="TenantIsNotActive" value="Tenant {0} is not active." />
+    <text name="TenancyName" value="Tenancy name" />
+
+    <!--Menu-->
+
+    <text name="Administration" value="Administración"/>
+
+    <!--OrganizationUnits-->
+    <text name="OrganizationUnits" value="Organization units" />
+    <text name="OrganizationUnitsManagement" value="Organization Units Management"/>
+    <text name="CreateNewOrganizationUnit" value="Create new organization unit"/>
+    <text name="CreateOrEditOrgUnit" value="Create or edit organization unit"/>
+    <text name="AddOrganizationUnit" value="Add organization unit"/>
+    <text name="EditOrganizationUnit" value="Edit organization unit"/>
+    <text name="DeleteOrganizationUnit" value="Delete organization unit"/>
+    <text name="TheUnitWillBeDeleted" value="The organization unit will be deleted"/>
+    <text name="UserAdded" value="User added to organization unit"/>
+    <text name="UserRemovedFromOrganizationUnit" value="User has been removed from organization unit"/>
+    <text name="UserWillBeRemovedFromOrganizationUnit" value="The user will be removed from the organization unit"/>
+    <text name="OrganizationUnitMoved" value="Organization unit moved"/>
+    <text name="OrganizationUnitCreated" value="Organization unit created"/>
+    <text name="MoveOrganizationUnit" value="Move organization unit?"/>
+    <text name="OrganizationUnitRemoved" value="Organization organization unit removed"/>
+    <!--Users-->
+
+    <text name="ChangePhoneNumber" value="Change phone number" />
+
+    <text name="ChangePhoneNumberForm" value="Add or change your phone number"/>
+    <text name="EnableTwoFactorAuth" value="Enable two factor authentication"/>
+    <text name="DisableTwoFactorAuth" value="Disable two factor authentication"/>
+    <text name="AddUser" value="Add user"/>
+    <text name="RegisterUserForm" value="Register / Edit user form" />
+    <text name="UsersManagement" value="Users management"/>
+    <text name="Users" value="Users" />
+    <text name="IsActive" value="Is active" />
+    <text name="FullName" value="Full name" />
+    <text name="NameSurname" value="Name surname" />
+    <text name="UserName" value="User name" />
+    <text name="Name" value="Name" />
+    <text name="Surname" value="Surname" />
+    <text name="EmailAddress" value="Email address" />
+    <text name="CreateNewUser" value="Create new user" />
+    <text name="UserNameOrEmail" value="User name or email" />
+    <text name="Password" value="Password" />
+    <text name="RememberMe" value="Remember me" />
+    <text name="MyRoles" value="My Roles" />
+    <text name="CountryCode" value="Country code" />
+    <text name="PhoneNumber" value="Phone number" />
+    <text name="LoginFailed" value="Login failed!" />
+    <text name="LogIn" value="Log in" />
+    <text name="SendNotificationMail" value="Send notification message to mail address" />
+    <text name="LastLoginTime" value="Last login" />
+    <text name="MyNotifications" value="My notifications" />
+    <text name="UserIsNotActiveAndCanNotLogin" value="User {0} is not active and can not log in." />
+    <text name="PleaseEnterLoginInformation" value="Please enter login information" />
+    <text name="InvalidUserNameOrPassword" value="Invalid user name or password" />
+    <text name="UserDeleted" value="User deleted" />
+    <text name="UserCreated" value="User created/edited" />
+    <text name="UserDeletedByUser" value="The user {userName} has deleted the user {userNameDeleted}!"/>
+    <text name="ProfilePicture" value="Profile picture" />
+    <text name="MyInfo" value="My info"/>
+    <text name="MyProfile" value="My profile" />
+    <text name="MyProfileView" value="Profile info"/>
+    <text name="UserEditedNotification" value="User {userNameEdited} was edited by {userName}" />
+    <text name="UserCreatedNotification" value="User {userNameCreated} was created by {userName}"/>
+    <text name="ProfileModified" value="Profile edited"/>
+    <text name="ProfilePicModified" value="Profile picture uploaded"/>
+    <text name="ChangePassword" value="Change password" />
+    <text name="Error" value="Error" />
+    <text name="PasswordsNotMatch" value="Both password and password confirmation not match" />
+    <text name="ChangePasswordForm" value="Change password form"/>
+    <text name="CurrentPassword" value="Current password"/>
+    <text name="ConfirmPassword" value="Confirm password"/>
+    <text name="UserUnlocked" value="User unlocked"/>
+    <text name="PermissionsSet" value="Permissions set"/>
+    <text name="ResetPermissions" value="Reset permissions"/>
+    <text name="Permissions" value="Permissions"/>
+    <text name="SetSpecialPermissionsForm" value="Set special permissions"/>
+    <text name="EditRoles" value="Edit roles"  />
+    <text name="EditUser" value="Edit user"  />
+    <text name="SetPermissions" value="Set permissions"  />
+    <text name="DeleteUser" value="Delete user"  />
+    <text name="UnlockUser" value="Unlock user"  />
+
+    <!--//Users-->
+
+    <!--//Emails-->
+    <text name="WelcomeMessage" value="Welcome {0} to the best website in the UNIVERSE!!!"/>
+    <text name="YourUserIs" value="Your username is {0}"/>
+    <text name="YourDefaultPassword" value="Your default password is: {0}"/>
+    <text name="YourPhoneNumberHasChanged" value="{0} your phone number has been modified: {1} at: {2}" />
+    <text name="UserChangedNotification" value="Your profile has changed"/>
+    <!--Roles-->
+    <text name="SelectRoles" value="Select roles"/>
+    <text name="Roles" value="Roles"/>
+    <text name="CreateRol" value="Create Role"/>
+    <text name="RoleRegisterForm" value="Role register form"/>
+    <text name="RoleDeleteMessage" value="The role {0} will be removed"/>
+    <text name="EditRole" value="Edit role"/>
+    <text name="RoleAssigned" value="Role assigned"/>
+    <text name="RoleEdited" value="Role added / edited" />
+    <text name="RoleDeleted" value="Role deleted"/>
+    <text name="RoleAssignedNotification" value="Roles for User {usernameAssigned} where modified by user {userName}" />
+    <text name="RoleAssignedNotificationToUser" value="Your roles were modified by user {userName}" />
+    <text name="RoleCreatedByUser" value="Role {roleName} created by {user}"/>
+    <text name="RoleEditedByUser" value="Role {roleName} edited by {user}"/>
+    <text name="RoleDeletedByUser" value="Role {roleName} deleted by {user}"/>
+    <text name="RoleDeletedForUser" value="One of your roles was deleted"/>
+    <test name="PermissionSetNotification" value="Your permissions were modified by user {userName}"/>
+    <text name="IsAssignedByDefault" value="Is assigned by default" />
+    <text name="OrganizationUnitsEdit" value="Edit organization units" />
+    <text name="OrganizationUnitsDelete" value="Delete organization units" />
+    <text name="OrganizationUnitsCreate" value="Create organization units" />
+    <text name="OrganizationUnitsAddUser" value="Add user to organization units" />
+    <text name="OrganizationUnitsRemoveUser" value="Remove user from organization units" />
+    <text name="CreateUsers" value="Create users"/>
+    <text name="EditUsers" value="Edit users"/>
+    <text name="DeleteUsers" value="Delete users"/>
+    <text name="PagesSysAdminLanguagesCreate" value="Create language"/>
+    <text name="PagesSysAdminLanguagesEdit" value="Create language"/>
+    <text name="PagesSysAdminLanguagesDelete" value="Create language"/>
+    <text name="PagesSysAdminLanguagesChangeTexts" value="Change texts"/>
+    <text name="PagesSysAdminRolesCreate" value="Create role"/>
+    <text name="PagesSysAdminRolesEdit" value="Edit role"/>
+    <text name="PagesSysAdminRolesDelete" value="Delete role"/>
+    <text name="PagesSysAuditLogs" value="Audit logs"/>
+    <text name="TenantsCreate" value="Create tenant"/>
+    <text name="TenantsEdit" value="Edit tenant"/>
+    <text name="TenantsDelete" value="Delete tenant"/>
+    <text name="TenantsAssignEdition" value="Assign edition"/>
+    <text name="TenantsAssignFeature" value="Assign feature"/>
+    <text name="PagesSysAdminRolesAssignPermissions" value="Assign permissions" />
+    <text name="RolesManagement" value="Roles management"/>
+
+    <!--//Roles-->
+
+
+    <!--Languages-->
+    <text name="Type" value="Type"/>
+    <text name="Static" value="Static"/>
+    <text name="NoStatic" value="User created"/>
+    <text name="Languages" value="Languages"/>
+    <text name="LanguagesManagement" value="Language management"/>
+    <text name="AddLanguage" value="Add language" />
+    <text name="TextEdition" value="Text edition"/>
+    <text name="SourceLang" value="Source language" />
+    <text name="TargetLang" value="Target language" />
+    <text name="Source" value="Source"/>
+    <text name="Key" value="Key"/>
+    <text name="SourceValue" value="Source value"/>
+    <text name="TargetValue" value="Target Value" />
+    <text name="Texts" value="Language texts" />
+    <text name="Text" value="Language text" />
+    <text name="ChangeText" value="Change text" />
+    <text name="DeleteLanguageMessage" value="Language [ {0} ] will be deleted" />
+    <text name="Language" value="Language" />
+    <text name="LanguageDeleted" value="Language: {languageName} was deleted by the user {user}"/>
+    <text name="LanguageCreated" value="Language: {languageName} was created by the user {user}"/>
+    <text name="UpdateFromXml" value="Update from XML file"/>
+    <text name="LanguageTextsWillBeUpdated" value="Language texts will be updated"/>
+    <text name="Test key" value="Test key"/>
+    <!--//Languages-->
+
+    <!--Audit logs-->
+    <text name="AuditLogs" value="Audit Logs" />
+    <text name="AuditLogList" value="Audit logs list"/>
+    <text name="Logs" value="Logs"/>
+    <text name="IP" value="IP Address" />
+    <text name="ExecutionTime" value="Excecution time" />
+    <text name="MethodName" value="Method name" />
+    <text name="Parameters" value="Parameters"/>
+    <text name="BrowserInfo" value="Browser info"/>
+    <text name="Duration" value="Duration"/>
+    <text name="UserInfo" value="User info"/>
+    <text name="ExceptionNotFound" value="Method executed successfully"/>
+    <text name="ExceptionFound" value="Exception found"/>
+    <text name="ClientName" value="Client name"/>
+    <text name="ServiceName" value="Service name"/>
+    <text name="ExecutionDuration" value="Execution duration"/>
+    <text name="TenantWillBeRestored" value="Tenant will be restored"/>
+    <text name="TenantChartsFor" value="Tenant charts for"/>
+    <!--//Audit logs-->
+
+
+    <!--Configuration-->
+    <text name="Configuration" value="Configuration"/>
+    <text name="ConfigurationManagement" value="Configuration Management"/>
+    <text name="System" value="System" />
+    <text name="Settings" value="Options"/>
+    <text name="SettingsAccount" value="Account settings" />
+    <text name="Themes" value="Themes" />
+    <text name="SelectTheme" value="Select theme" />
+    <text name="NotificationsUser" value="User notifications"/>
+    <text name="SubscribeToNotificationUserCreated" value="User created notifications" />
+    <text name="SubscribeToNotificationUserDeleted" value="User deleted notifications" />
+    <text name="SubscribeToNotificationRoleCreated" value="Role created notifications" />
+    <text name="SubscribeToNotificationRoleEdited" value="Role edited notifications" />
+    <text name="SubscribeToNotificationRoleDeleted" value="Role deleted notifications" />
+    <text name="SubscribeToNotificationRoleAssigned" value="Role assigned notifications" />
+    <text name="SubscribeToNotificationLanguageCreated" value="Language created notifications"/>
+    <text name="SubscribeToNotificationLanguageDeleted" value="Language deleted notifications"/>
+    <text name="SubscribeToNotificationSettingsChanged" value="Settings changed notifications"/>
+    <text name="Subscribe" value="Subscribe" />
+    <text name="UnSubscribe" value="Unsubscribe" />
+    <text name="Loading" value="Loading"/>
+    <text name="ChangesSaved" value="Changes saved"/>
+    <text name="SettingsChangedByUser" value="Application settings where changed by {userName}"/>
+
+
+    <!--//Configuration-->
+
+
+    <!--Dashboard-->
+    <text name="Dashboard" value="Dashboard" />
+    <text name="DashboardView" value="Dashboard panel" />
+    <text name="MethodCalls" value="Method calls"/>
+    <text name="SeeAll" value="See all"/>
+    <text name="Requests" value="Requests"/>
+    <text name="AverageExecutionTime" value="Average Execution Time"/>
+
+    <text name="SuccessOperation" value="Success"/>
+    <text name="ErrorOperation" value="Error"/>
+    <text name="LiveSwitch" value="Live switch"/>
+    <!--//Dashboard-->
+
+    <text name="Tenants" value="Tenants" />
+    <text name="SavedSuccessfully" value="Saved successfully" />
+    <text name="CreateNewTenant" value="Create new tenant" />
+    <text name="AdminEmailAddress" value="Admin email address" />
+    <text name="Save" value="Save" />
+    <text name="Cancel" value="Cancel" />
+    <text name="TenantName_Regex_Description" value="Tenant name must be at least 2 chars, starts with a letter and continue with letter, number, dash or underscore." />
+    <text name="DefaultPasswordIs" value="Default password is {0}" />
+    <text name="CanBeEmptyToLoginAsHost" value="Can be empty to login as host." />
+    <text name="Register" value="Register" />
+    <text name="OrLoginWith" value="Or login with" />
+    <text name="WaitingForActivationMessage" value="Your account is waiting to be activated by system admin." />
+    <text name="TenantSelection" value="Tenant Selection" />
+    <text name="TenantSelection_Detail" value="Please select one of the following tenants." />
+    <text name="Logout" value="Logout" />
+    <text name="ConfirmDeleteUser" value="The user {0} will be deleted" />
+
+    <text name="RegisterFormUserNameInvalidMessage">Please dont enter an email address for username.</text>
+
+    <text name="DatabaseConnectionString" value="Database connection string" />
+
+    <text name="Pages" value="Pages" />
+    <text name="PagesSysAdminConfiguration" value="Configuration" />
+    <text name="PagesSysAdminDashBoard" value="Control Panel" />
+    <text name="PagesSysAdminLanguages" value="Languages" />
+    <text name="PagesSysAdminPermissions" value="Permissions" />
+    <text name="PagesSysAdminRoles" value="Roles" />
+    <text name="Delete" value="Delete"/>
+    <text name="Yes" value="Yes" />
+    <text name="No" value="No" />
+    <text name="Optional" value="Optional" />
+    <text name="ConfirmQuestion" value="Are you sure?" ></text>
+    <text name="CreationTime" value="Creation Time"/>
+    <text name="Success" value="Success"/>
+    <text name="Home" value="Home"/>
+    <text name="Close" value="Close"/>
+
+    <!--Settings-->
+    <text name="EmailSettings" value="Email settings"/>
+    <text name="Account" value="Account"/>
+    <text name="Other" value="Other"/>
+
+    <text name="ClearCache" value="Clear Caches" />
+    <text name="CacheCleaned" value="Cache cleaned"/>
+    <!--Editions-->
+    <text name="Editions" value="Editions"/>
+    <text name="EditionsManagement" value="Edition management"/>
+    <text name="CreateEdition" value="Create Edition"/>
+    <text name="EditionProperties" value="Edition Properties"/>
+    <text name="Features" value="Features"/>
+    <text name="Price" value="Price"/>
+    <text name="DeleteEdition" value="The edition will be deleted?"/>
+    <text name="EditionCreatedNotification" value="Edition: {editionName} created by user {userName}"/>
+    <text name="EditionDeletedNotification" value="Edition: {editionName} deleted by user {userName}"/>
+    <text name="EditionDeletedForTenant" value="Your current edition: {editionName} was deleted please contact support"/>
+    <text name="EditionDeleted" value="Edition deleted"/>
+    <!--Tenants-->
+    <text name="TenantManagement" value="Tenant management"/>
+    <text name="SetEdition" value="Set edition"/>
+    <text name="EnableFeatures" value="Enable features"/>
+    <text name="SetTenantEdition" value="Set edition"/>
+    <text name="TenantCreated" value="A new tenant was created: {tenancyName}, by user {userName}"/>
+    <text name="TenantDeleted" value="A tenant was deleted: {tenancyName}, by user {userName}"/>
+    <text name="TenantFeaturesChanged" value="Features for tenant {0} changed by user {1}"/>
+    <text name="TenantEditionChanged" value="Edition for tenant {tenantName} was changed to {editionName} by user {userName}"/>
+    <text name="EditionChanged" value="Edition {editionName} was modified by user {userName}"/>
+    <text name="YourEditionWasChanged" value="Your edition was changed"/>
+    <text name ="TenantWillBeDeleted" value="The tenant will be deleted"/>
+    <text name="RestoreTenant" value="Restore tenant"/>
+    <text name="SetTenantFeatures" value="Set tenant features" />
+    <text name="DeleteTenant" value="Delete tenant"/>
+    <text name="PasswordChanged" value="Password changed"/>
+    <text name="ShouldChangePassword" value="If this is your first login, click here to change your password"/>
+    <text name="ShouldChangePasswordOnLogin" value="Should change password on login"/>
+    <text name="NewPassword" value="New password"/>
+    <text name="TenantRestored" value="Tenant: {tenancyName} restored by user {userName}"/>
+    <text name="SubscribeToNotificationsTenantDeleted"  value="Tenant deleted notification"/>
+    <text name="SubscribeToNotificationsTenantEditionChanged"  value="Tenant edition changed notification"/>
+    <text name="SubscribeToNotificationsTenantEditionDeleted"  value="Tenant edition deleted notification"/>
+    <text name="SubscribeToNotificationsTenantCreated"  value="Tenant created notification"/>
+    <text name="SubscribeToNotificationsTenantRestored"  value="Tenant restored notification"/>
+    <text name="SubscribeToNotificationsTenantEditionCreated"  value="Edition created notification"/>
+    <text name="SubscribeToNotificationsTenantEditionEdited"  value="Edition modified notification"/>
+    <text name="SubscribeToNotificationsTenantEditionAssigned"  value="Edition assigned notification"/>
+    <text name="YourEmailIsNotConfirmed" value="Your email is not confirmed, please check your inbox or your junk folder"/>
+    <text name="Resend" value="Re-send email"/>
+    <text name="ClickHereToConfirm" value="Click here to confirm your email address"/>
+    <text name="EmailConfirmationUrl" value="Welcome to the very best website of the UNIVERSE!!! [Awesome CGI Explosion]: "/>
+    <text name="EmailVerificationCode" value="Cinotam email confirmation"/>
+    <text name="EmailConfirmed" value="Awesome! your email has been confirmed"/>
+    <text name="EmailIsConfirmed" value="Email confirmed"/>
+    <text name="ForgottenPasswordRecovery" value="Forgotten password form"/>
+    <text name="ForgottenPassword" value="I forgot my password  >:( "/>
+    <text name="SessionExpired" value="Session expired"/>
+    <text name="ConfirmLogin" value="Confirm login"/>
+    <text name="Confirm" value="Confirm"/>
+    <text name="SetNewPassword" value="Set new password"/>
+    <text name="RecoverPasswordMessage" value="Please provide us the email associated with your account"/>
+    <text name="RecoveryMessageSent" value="A recovery message was sent to the provided email account, please read it for further instructions"/>
+    <text name="PasswordReset" value="Cinotam password recovery"/>
+    <text name="PasswordResetUrl" value="Your password recovery link"/>
+    <text name="ClickHereToResetPassword" value="Click here to reset password"/>
+  </texts>
+</localizationDictionary>

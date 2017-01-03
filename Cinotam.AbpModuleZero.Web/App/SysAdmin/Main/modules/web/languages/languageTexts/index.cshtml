@@ -1,0 +1,45 @@
+<div ng-controller='app.views.languageText.index as vm'>
+    <h2>@L("Languages")</h2>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                @L("Languages")
+                <button type="button" class="btn btn-default btn-xs pull-right" ng-click='vm.updateFromXml()'>
+                    @L("UpdateFromXml")
+                </button>
+
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-4">
+
+                    <label class="control-label">@L("SourceLang")</label>
+                    <select ng-change='vm.updateTable()' ng-model='vm.selectedLang' ng-options="option.name for option in vm.sourceLangs track by option.name"
+                        class="form-control" required="required">
+                    </select>
+                </div>
+                <div class="col-xs-4">
+                    <label class="control-label">@L("TargetLang")</label>
+                    <select ng-change='vm.updateTable()' ng-model='vm.selectedTargetLang' ng-options="option.name for option in vm.targetLangs track by option.name"
+                        class="form-control" required="required">
+                    </select>
+                </div>
+                <div class="col-xs-4">
+                    <label class="control-label">@L("Source")</label>
+                    <select ng-change='vm.updateTable()' ng-model='vm.selectedSource' ng-options="option.name for option in vm.sources track by option.name"
+                        class="form-control" required="required">
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <abp-cinotam-table instance-ready='vm.instanceReady' data='vm.data' server-side='vm.serverSide' btn-position-class="" col-defs='vm.colDefs' default-search="vm.defaultSearchPropery"
+                        url="vm.url" push-actions-on-the-left="true" table="vm.table" properties="vm.properties" funcobj="vm.objFuncs"
+                        actions="vm.actions"></abp-cinotam-table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
