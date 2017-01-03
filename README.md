@@ -11,8 +11,6 @@ AbpCinotamZero is a basic startup template that tries to implement the ASP.NET B
 ##Notes:
 **-This is an "under construction" proyect, it was created for our personal use, use it under your own risk**
 
-**-This template uses smart admin (single license only). Purchase from: https://wrapbootstrap.com/theme/smartadmin-responsive-webapp-WB0573SK0 , its a really cool template and its not too expensive.**
-
 **-If you find any logic or code errors (there might be a lot) please leave us a message or create an issue, all suggestions are welcome**
 
 ##**AspNetZero - This is a commercial product (recommended)**
@@ -23,15 +21,11 @@ http://aspnetboilerplate.com/
 
 ASP.NET Boilerplate is a starting point for new modern web applications using best practices and popular tools. It's aimed to be a solid model, a general-purpose application framework and a project template.
 
-
 **Asp.Net Boilerplate src** 
 https://github.com/aspnetboilerplate/aspnetboilerplate/
 
 **ASP.NET Boilerplate Website Docs** 
 http://aspnetboilerplate.com/Pages/Documents
-
-##SmartAdmin Author Website
-http://www.myorange.ca
 
 ###**Kudos to the real geniuses behind the AbpFramework**
 
