@@ -1,37 +1,11 @@
 # AbpCinotamZero
 [![Build status](https://ci.appveyor.com/api/projects/status/70x83r44khsjd6j3?svg=true)](https://ci.appveyor.com/project/periface/abpcinotammodulezero)
 
-#MPA
-
-![alt tag](https://raw.githubusercontent.com/periface/AbpCinotamZero-SmartAdmin/master/Cinotam.AbpModuleZero.Web/RepoContent/Captura.JPG)
-
 #SPA (ANGULARJS) -Work in progress
 
 **[Using John Papa Module Pattern]**
 
 ![alt tag](https://raw.githubusercontent.com/periface/AbpCinotamZero-SmartAdmin/master/Cinotam.AbpModuleZero.Web/RepoContent/CapturaSpaDash.JPG)
-
-##SPA Status (MPA as reference)
-
--Dashboard - **95% (Live update pending)**
-
--Organization units - **Finished**
-
--Users - **Finished**
-
--Roles - **Finished**
-
--Languages - **Finished (Review pending)** 
-
--Configuration - **Finished**
-
--Audit logs - **Finished**
-
--User profile - **45%**
-
--Editions - **Not started yet**
-
--Tenants - **Not started yet**
 
 AbpCinotamZero is a basic startup template that tries to implement the ASP.NET Boilerplate and Module Zero functionality and practices, its maintained by just a couple of newbie web developers. 
 
