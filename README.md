@@ -1,9 +1,8 @@
-# AbpCinotamZero
-[![Build status](https://ci.appveyor.com/api/projects/status/70x83r44khsjd6j3?svg=true)](https://ci.appveyor.com/project/periface/abpcinotammodulezero)
-
-#SPA (ANGULARJS) -Work in progress
+# AbpCinotamZero - SPA
 
 **[Using John Papa Module Pattern]**
+
+[![Build status](https://ci.appveyor.com/api/projects/status/70x83r44khsjd6j3?svg=true)](https://ci.appveyor.com/project/periface/abpcinotammodulezero)
 
 ![alt tag](https://raw.githubusercontent.com/periface/AbpCinotamZero-SmartAdmin/master/Cinotam.AbpModuleZero.Web/RepoContent/CapturaSpaDash.JPG)
 
