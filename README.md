@@ -2,7 +2,7 @@
 
 **[Using John Papa Module Pattern]**
 
-[![Build status](https://ci.appveyor.com/api/projects/status/70x83r44khsjd6j3?svg=true)](https://ci.appveyor.com/project/periface/abpcinotammodulezero)
+[![Build status](https://ci.appveyor.com/api/projects/status/gljoeksbssjmaihw?svg=true)](https://ci.appveyor.com/project/periface/abpcinotamzero-spa-only)
 
 ![alt tag](https://raw.githubusercontent.com/periface/AbpCinotamZero-SmartAdmin/master/Cinotam.AbpModuleZero.Web/RepoContent/CapturaSpaDash.JPG)
 
