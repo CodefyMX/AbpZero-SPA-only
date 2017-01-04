@@ -28,5 +28,17 @@
     "inputFiles": [
       "Content/bootstrap.min.css"
     ]
+  },
+  {
+    "outputFileName": "App/SysAdmin/Main/modules/web/layout/header.min.js",
+    "inputFiles": [
+      "App/SysAdmin/Main/modules/web/layout/header.js"
+    ]
+  },
+  {
+    "outputFileName": "App/SysAdmin/Main/modules/web/languages/index.min.js",
+    "inputFiles": [
+      "App/SysAdmin/Main/modules/web/languages/index.js"
+    ]
   }
 ]

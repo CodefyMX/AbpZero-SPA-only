@@ -360,9 +360,15 @@
     <Content Include="App\SysAdmin\Main\modules\web\editions\index.js" />
     <Content Include="App\SysAdmin\Main\modules\web\languages\createEditLanguage.js" />
     <Content Include="App\SysAdmin\Main\modules\web\languages\index.js" />
+    <Content Include="App\SysAdmin\Main\modules\web\languages\index.min.js">
+      <DependentUpon>index.js</DependentUpon>
+    </Content>
     <Content Include="App\SysAdmin\Main\modules\web\languages\languageTexts\editText.js" />
     <Content Include="App\SysAdmin\Main\modules\web\languages\languageTexts\index.js" />
     <Content Include="App\SysAdmin\Main\modules\web\layout\header.js" />
+    <Content Include="App\SysAdmin\Main\modules\web\layout\header.min.js">
+      <DependentUpon>header.js</DependentUpon>
+    </Content>
     <Content Include="App\SysAdmin\Main\modules\web\layout\layout.js" />
     <Content Include="App\SysAdmin\Main\modules\web\myprofile\index.js" />
     <Content Include="App\SysAdmin\Main\modules\web\organizationUnits\adduser.js" />
@@ -399,6 +405,7 @@
     <Content Include="Content\Custom\DropDownMenuLarge.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="Content\Images\placeholder.svg" />
     <Content Include="Content\MailTemplates\ChangeInfo\ChangedInfo_Partial.html" />
     <Content Include="Content\MailTemplates\WelcomeTemplates\Welcome.Html" />
@@ -452,7 +459,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\abp-logo.png" />
     <Content Include="Content\flags\famfamfam-flags.css" />
-    <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="js\DivAjaxLoader.js" />

@@ -1,8 +1,8 @@
 ﻿(function () {
     var controllerId = 'app.views.layout.header';
     angular.module('app').controller(controllerId, HeaderController);
-    HeaderController.$inject = ['$rootScope', '$state', 'appSession', 'routerHelper'];
-    function HeaderController($rootScope, $state, appSession, routerHelper) {
+    HeaderController.$inject = ['$rootScope', '$state', 'appSession', 'routerHelper','$window'];
+    function HeaderController($rootScope, $state, appSession, routerHelper, $window) {
         var vm = this;
 
         vm.languages = abp.localization.languages;
@@ -14,6 +14,7 @@
         $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
             vm.currentMenuName = toState.menu;
         });
+        vm.location = '/Admin/Spa' + $window.location.hash;
         vm.isLoggedIn = appSession.isLoggedIn;
         vm.getShownUserName = function () {
             if (!abp.multiTenancy.isEnabled) {

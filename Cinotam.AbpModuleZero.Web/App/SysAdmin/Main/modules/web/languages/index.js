@@ -38,14 +38,13 @@
             });
             modalInstance.result.then(function (response) {
                 if (response == 'ok') {
-                    abp.notify.success(App.localize("LanguageCreated"), App.localize("Success"));
-                    vm.reloadTable();
+                    window.location.reload(true);
                 }
             });
         }
         vm.colDefs = [
             {
-                render: function (data, type, row) {
+                render: function(data, type, row) {
                     if (row.IsStatic) {
                         return "<span class='label label-default'>" + App.localize("Static") + "</span>";
                     } else {
@@ -55,12 +54,12 @@
                 target: 4
             },
             {
-                render: function (data, type, row) {
+                render: function(data, type, row) {
                     return "<i class=" + row.Icon + "></i> " + row.DisplayName;
                 },
                 target: 2
             }
-        ]
+        ];
         vm.createEditTexts = function (targetLang) {
             var clean = targetLang.replace(/ /g, '');
             $state.go('LanguageTexts', { targetLang: clean });
