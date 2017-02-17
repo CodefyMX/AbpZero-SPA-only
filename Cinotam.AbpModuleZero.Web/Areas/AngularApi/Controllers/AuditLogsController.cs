@@ -20,9 +20,9 @@ namespace Cinotam.AbpModuleZero.Web.Areas.AngularApi.Controllers
 
         [DisableAuditing]
         [WrapResult(false)]
-        public async Task<ActionResult> LoadLogs(RequestModel<object> input, string propToSearch, string[] requestedProps)
+        public async Task<ActionResult> LoadLogs(RequestModel<object> input, string propToSearch, string[] requestedProps, bool isPost)
         {
-            ProccessQueryData(input, propToSearch, requestedProps);
+            ProccessQueryData(input, propToSearch, requestedProps, isPost);
             var result = await _auditLogService.GetAuditLogTable(input);
             return Json(result, JsonRequestBehavior.AllowGet);
         }

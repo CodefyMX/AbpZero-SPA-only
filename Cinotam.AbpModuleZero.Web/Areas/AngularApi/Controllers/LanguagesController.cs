@@ -22,9 +22,9 @@ namespace Cinotam.AbpModuleZero.Web.Areas.AngularApi.Controllers
 
         [AbpMvcAuthorize(PermissionNames.PagesSysAdminLanguages)]
         [WrapResult(false)]
-        public async Task<ActionResult> LoadLanguages(RequestModel<object> input, string propToSearch, string[] requestedProps)
+        public async Task<ActionResult> LoadLanguages(RequestModel<object> input, string propToSearch, string[] requestedProps, bool isPost)
         {
-            ProccessQueryData(input, propToSearch, requestedProps);
+            ProccessQueryData(input, propToSearch, requestedProps, isPost);
             var result = await _languageAppService.GetLanguagesForTable(input);
             return Json(result, JsonRequestBehavior.AllowGet);
         }

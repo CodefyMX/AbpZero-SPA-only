@@ -44,22 +44,26 @@ namespace Cinotam.AbpModuleZero.Web.Controllers
 
             }
         }
+
         /// <summary>
         /// Build the model for the datatables.js request
         /// </summary>
         /// <param name="requestModel"></param>
         /// <param name="propToSearch">Prop used to filter data if empty search in all props of the object</param>
         /// <param name="reflectedProps">Columns of the table, they need to be in order</param>
-        protected void ProccessQueryData(RequestModel<object> requestModel, string propToSearch, string[] reflectedProps)
+        /// <param name="isPost"></param>
+        protected void ProccessQueryData(RequestModel<object> requestModel, string propToSearch, string[] reflectedProps, bool isPost = false)
         {
+
+            var nameValueCollection = isPost ? Request.Form : Request.QueryString;
             if (
-                Request.QueryString["order[0][column]"] != null)
+               nameValueCollection["order[0][column]"] != null)
             {
-                requestModel.PropSort = int.Parse(Request.QueryString["order[0][column]"]);
+                requestModel.PropSort = int.Parse(nameValueCollection["order[0][column]"]);
             }
-            if (Request.QueryString["order[0][dir]"] != null)
+            if (nameValueCollection["order[0][dir]"] != null)
             {
-                requestModel.PropOrd = Request.QueryString["order[0][dir]"];
+                requestModel.PropOrd = nameValueCollection["order[0][dir]"];
             }
 
             if (!string.IsNullOrEmpty(propToSearch)) requestModel.PropToSearch = propToSearch;

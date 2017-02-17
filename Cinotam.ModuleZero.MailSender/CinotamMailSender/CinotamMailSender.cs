@@ -23,8 +23,9 @@ namespace Cinotam.ModuleZero.MailSender.CinotamMailSender
             foreach (var mailServiceProvider in providers)
             {
                 var result = await mailServiceProvider.DeliverMail(input);
+                if (!result.MailSent) continue;
                 ReleaseAll(providers);
-                if (result.MailSent) return new EmailSentResult()
+                return new EmailSentResult()
                 {
                     MailSent = true,
                     SentWithSmtp = mailServiceProvider.IsSmtp,

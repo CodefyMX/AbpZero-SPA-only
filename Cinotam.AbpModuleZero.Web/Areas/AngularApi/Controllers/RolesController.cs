@@ -20,9 +20,9 @@ namespace Cinotam.AbpModuleZero.Web.Areas.AngularApi.Controllers
         // GET: AngularApi/Roles
         [AbpMvcAuthorize(PermissionNames.PagesSysAdminRoles)]
         [WrapResult(false)]
-        public ActionResult LoadRoles(RequestModel<object> input, string propToSearch, string[] requestedProps)
+        public ActionResult LoadRoles(RequestModel<object> input, string propToSearch, string[] requestedProps, bool isPost)
         {
-            ProccessQueryData(input, propToSearch, requestedProps);
+            ProccessQueryData(input, propToSearch, requestedProps, isPost);
             var result = _roleAppService.GetRolesForTable(input);
             return Json(result, JsonRequestBehavior.AllowGet);
         }

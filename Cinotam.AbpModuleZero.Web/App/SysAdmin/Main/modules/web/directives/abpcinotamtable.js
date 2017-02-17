@@ -169,7 +169,8 @@
             });
             var dataObj = {
                 propToSearch: defaultSearch,
-                requestedProps: propString
+                requestedProps: propString,
+                isPost: true
             };
             if (tdata) {
                 angular.extend(dataObj, tdata);
